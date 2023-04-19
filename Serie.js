@@ -1,6 +1,6 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Serie = void 0;
+
+export { _Serie as Serie };
 var Serie = /** @class */ (function () {
     function Serie(id, title, channel, seasons, synopsis, url, imageUrl) {
         this.id = id;
@@ -13,4 +13,5 @@ var Serie = /** @class */ (function () {
     }
     return Serie;
 }());
-exports.Serie = Serie;
+const _Serie = Serie;
+

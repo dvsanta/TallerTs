@@ -19,3 +19,4 @@ export const series = [
     new Serie (6, "A Very English Scandal", "BBC", 2, "A Very English Scandal is a fact-based three-part British television comedy-drama miniseries based on John Preston's book of the same name.",
         "https://www.bbc.co.uk/programmes/p065smy4", "http://samuelsanta.co/wp-content/uploads/2023/04/D4y3DrQ.jpg"),
   ];
+

@@ -1,5 +1,5 @@
 import { series } from './data';
-
+console.log(series)
 let table = document.getElementById("table-container");
 if (table) {
 

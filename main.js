@@ -1,10 +1,11 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var data_1 = require("./data");
+
+import { series as _series } from "./data.js";
+console.log(_series);
 var table = document.getElementById("table-container");
 if (table) {
     var tbody_1 = document.createElement("tbody");
-    data_1.series.forEach(function (serie) {
+    _series.forEach(function (serie) {
         var tr = document.createElement("tr");
         var idCell = document.createElement("td");
         idCell.textContent = serie.id.toString();
@@ -43,7 +44,7 @@ if (table) {
     var average = document.getElementById("average");
     if (average) {
         if (average.textContent) {
-            average.innerText = getAverage(data_1.series).toString();
+            average.innerText = getAverage(_series).toString();
         }
     }
 }
