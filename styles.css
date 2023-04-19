@@ -1,0 +1,18 @@
+.navbar-blue {
+    background-color: #21A4B7 !important;
+}
+
+h1 {
+    padding: 0.1em;
+}
+
+.container {
+    margin: 8em;
+}
+
+.table {
+    width: 50%;
+}
+.card {
+     width: 50%;;
+}
